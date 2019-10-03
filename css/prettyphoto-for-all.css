@@ -1,0 +1,77 @@
+/* -------------------------------------------------------- *
+ * - PrettyPhoto 
+ * -------------------------------------------------------- */
+button.prettyphoto{
+	padding: 0;
+	border: none;
+	background: none;
+}
+.pp_expand{
+	z-index: 999999;
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	right: 30px;
+	top: 10px;
+}
+.pp_contract{
+	position: absolute;
+	right: 30px;
+	top: 10px;
+	z-index: 20000;
+	border: none;
+}
+.pp_play,
+.pp_pause{
+	border: none;
+}
+.pp_next{
+	float: right;
+	height: 100%;
+	width: 49%;
+	background: url(../../plugins/js_composer_theme/assets/lib/prettyphoto/images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;
+	border: none;
+}
+div.pp_default .pp_next:hover,
+div.pp_default .pp_next:focus{
+	background: url(../../plugins/js_composer_theme/assets/lib/prettyphoto/images/prettyPhoto/default/sprite_next.png) center right no-repeat;
+}
+.pp_previous{
+	float: left;
+	height: 100%;
+	width: 49%;
+	background: url(../../plugins/js_composer_theme/assets/lib/prettyphoto/images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;
+	border: none;
+}
+div.pp_default .pp_previous:hover,
+div.pp_default .pp_previous:focus{
+	background: url(../../plugins/js_composer_theme/assets/lib/prettyphoto/images/prettyPhoto/default/sprite_prev.png) center left no-repeat;
+}
+.pp_arrow_previous{
+	float: left;
+	margin: 4px 0 0 0;
+	width: 20px;
+	height: 20px;
+	background: url(../../plugins/js_composer_theme/assets/lib/prettyphoto/images/prettyPhoto/default/sprite.png) -31px -3px no-repeat;
+	border: none;
+}
+.pp_arrow_next{
+	float: left;
+	margin: 4px 0 0 0;
+	width: 20px;
+	height: 20px;
+	background: url(../../plugins/js_composer_theme/assets/lib/prettyphoto/images/prettyPhoto/default/sprite.png) -82px -3px no-repeat;
+	border: none;
+}
+.pp_close{
+	position: absolute;
+	right: 0;
+	border: none;
+}
+.pp_gallery li button{
+	border: none;
+	background: none;
+}
+.pp_content_container:focus-within .pp_gallery{
+	display: block !important;
+}
